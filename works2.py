@@ -8,16 +8,16 @@
 #0(1) in runtime all functions
 #
 
-from struct import unpack
+# from struct import unpack
 
-from regex import F
+# from regex import F
 
 
-fruit_col = {
-    "apple": "red",
-    "berries": "blue"
+# fruit_col = {
+#     "apple": "red",
+#     "berries": "blue"
     #"another_Dict": {"a":"letter"} # nested dict
-}
+# }
 
 #print(fruit_col["apple"])
 
@@ -104,7 +104,7 @@ fruit_col = {
 #d.update({"a": 3}) # add val, carefull overwrite val  from a if exist !!
 #d.popitem({"z": 999}) #remove last from dict manuell, careful !! 
 
-list_days = ["monday", "tuesday", "wednesday", "thursday", "friday"]
+# list_days = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 
 # count = 1
 # for day in enumerate(list_days):
@@ -192,30 +192,30 @@ list_days = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 # print(sorted(books, key= func))
 
 
-books = [
-    {"cost": 10, "name": 'Python 2'},
-    {"cost": 1, "name": 'Best tourism sites in Napoli'},
-    {"cost": 5, "name": 'Basket Weaving for Pros'},
-    {"cost": 8, "name": 'Java for dummies'},
-]
-# print(sorted(books, key=lambda book: book['cost']))
+# books = [
+#     {"cost": 10, "name": 'Python 2'},
+#     {"cost": 1, "name": 'Best tourism sites in Napoli'},
+#     {"cost": 5, "name": 'Basket Weaving for Pros'},
+#     {"cost": 8, "name": 'Java for dummies'},
+# ]
+# # print(sorted(books, key=lambda book: book['cost']))
 
-# readable!
-func = lambda book: book['cost']
-print(sorted(books, key=func))
-print()
+# # readable!
+# func = lambda book: book['cost']
+# print(sorted(books, key=func))
+# print()
 
-func = lambda book: book['cost']
-print(sorted(books, key=func, reverse=True))
-print()
+# func = lambda book: book['cost']
+# print(sorted(books, key=func, reverse=True))
+# print()
 
 
-# numbers = sorted(numbers, reverse=True)
-func = lambda book: book['name']
-print(sorted(books, key=func))
-print()
+# # numbers = sorted(numbers, reverse=True)
+# func = lambda book: book['name']
+# print(sorted(books, key=func))
+# print()
 
-func = lambda book: book['name']
-print(sorted(books, key=func, reverse=True))
-print()
+# func = lambda book: book['name']
+# print(sorted(books, key=func, reverse=True))
+# print()
 
