@@ -331,3 +331,49 @@
 # print(l1 == l2)
 # print(s1 == s2)
 # print(t1 == t2)
+
+
+
+
+# context = {
+# 'navigation': [
+# 'Home',
+# 'Explore',
+# 'Notofication',
+# 'Bookmarks',
+# 'Lists',
+# 'Profiles',
+# 'More',
+# ]
+# }
+
+# User = {
+# 'Name': 'Digital Career Institute'
+# 'id': "@DC_Institute1"
+# 'Message': "Your digital Career Starts Here. \nFind the jobs that work for you and get the skills to do them"
+# 'Joined': DateObjectFrom_DB
+# 'Following': following_as_int_from_db
+# 'Followers': follower_as_int_from_db
+# }
+
+# Tweets = [
+# {"Name": Name_from_db,
+# "id": id_from_db,
+# "tweet": coresponding_tweet_from_db},
+# {"Name": Name_from_db,
+# "id": id_from_db,
+# "tweet": coresponding_tweet_from_db},
+# {"Name": Name_from_db,
+# "id": id_from_db,
+# "tweet": coresponding_tweet_from_db},
+# ...
+# ] 
+
+
+# def get_score(a_name):
+#     if a_name in participants:
+#         retrun f"{a_name} has scored {scores[a_name.lower()]}"
+#     else:
+#         return f"{a_name} did not part"
+
+# print(get_score("britney"))
