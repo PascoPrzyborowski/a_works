@@ -109,7 +109,7 @@
 #names = ['jacque doe', 'peer doe', 'mirjam doe', 'shaban doe']
 
 
-names = [{'name': 'jacque doe'}, {'name': 'peer doe'}, {'name': 'mirjam doe'}, {'name': 'shaban doe'}]
+#names = [{'name': 'jacque doe'}, {'name': 'peer doe'}, {'name': 'mirjam doe'}, {'name': 'shaban doe'}]
 
 # all_names_capitalize = map(lambda name: name.title(), names)
 
@@ -127,5 +127,5 @@ names = [{'name': 'jacque doe'}, {'name': 'peer doe'}, {'name': 'mirjam doe'}, {
 # names = filter(lambda name_dict: not name_dict['name'] != 'jacque', names)
 # print(list(names))
 
-names = filter(lambda name_dictionary: not name_dictionary['name'].startswith('jacque'), names)
-print(list(names))
+# names = filter(lambda name_dictionary: not name_dictionary['name'].startswith('jacque'), names)
+# print(list(names))

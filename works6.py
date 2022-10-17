@@ -106,15 +106,15 @@
 
 # passing a function as an argument
 
-def do_something(string, func):
-    return func(string)
+# def do_something(string, func):
+#     return func(string)
 
-def add_a_greeting(name):
-    return "Good morning " + name
+# def add_a_greeting(name):
+#     return "Good morning " + name
 
-def make_upper(name):
-    return name.title()
+# def make_upper(name):
+#     return name.title()
 
-print(do_something('peer', make_upper))
-print(do_something('peer', add_a_greeting))
-print(do_something(do_something('peer', make_upper), add_a_greeting))
+# print(do_something('peer', make_upper))
+# print(do_something('peer', add_a_greeting))
+# print(do_something(do_something('peer', make_upper), add_a_greeting))

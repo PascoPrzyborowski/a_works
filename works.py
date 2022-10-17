@@ -280,7 +280,7 @@
 # print(set1)
 # print(set2)
 
-
+#import this
 
 # set1 = [1,2,3,4,]
 # set2 = [4,5,6,7,]
@@ -377,3 +377,6 @@
 #         return f"{a_name} did not part"
 
 # print(get_score("britney"))
+
+#import this
+

@@ -15,12 +15,12 @@ What are recursive functions?
 # 3 x 2 x 1 x (0!), in math the symbol, !, is used to mean factorial
 # the base case here is 0, at which point the function returns 1.
 
-def factorial(n):
-    # base case
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
+# def factorial(n):
+#     # base case
+#     if n == 0:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
 
 
 # Python supports up to 1000 frames in its recurrsion limit, 
@@ -40,32 +40,32 @@ def factorial(n):
 x = [1, 2, 3]
 
 # 20 minutes, trying to rewrite this to use a recursive style
-def get_sum(list):
-    total = 0
-    for i in list:
-        total += i
-    return total
+# def get_sum(list):
+#     total = 0
+#     for i in list:
+#         total += i
+#     return total
 
-# here we total up values from the end of the list to the beginning
-# def pascos_sum(list):
-#     print(list)
-#     if len(list) == 0:
+# # here we total up values from the end of the list to the beginning
+# # def pascos_sum(list):
+# #     print(list)
+# #     if len(list) == 0:
+# #         return 0
+# #     return list[-1] + pascos_sum(list[:-1])
+
+# # print(pascos_sum([1,2,3]))
+
+# # here we are totaling from the beginning of the list
+# def sum_list(lst):
+#     if not lst:  # is the list empty?
 #         return 0
-#     return list[-1] + pascos_sum(list[:-1])
-
-# print(pascos_sum([1,2,3]))
-
-# here we are totaling from the beginning of the list
-def sum_list(lst):
-    if not lst:  # is the list empty?
-        return 0
-    else:
-        # extract one value from the list (and reduce)
-        first = lst.pop(0)  # reduces the list and also stores the value to use
-        return first + sum_list(lst)  # lst -> mutating
+#     else:
+#         # extract one value from the list (and reduce)
+#         first = lst.pop(0)  # reduces the list and also stores the value to use
+#         return first + sum_list(lst)  # lst -> mutating
 
 
-print(sum_list([1, 2]))  # 3
+# print(sum_list([1, 2]))  # 3
 
 # iterative solutions can be done in a recursive way 
 # (i.e. if you are able to write it using a loop, you can also do it in a recursive way)
