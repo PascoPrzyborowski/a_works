@@ -42,3 +42,21 @@ def greet2(type):
 
 f = greet2('informal')
 print(f('Pasco'))
+
+
+def validate_nums(f):
+    def deco_func(*args, **kwargs):
+        for num in args:
+            if num < 0:
+                print('no neg nums allowed! ')
+                #exit(-1)
+                return
+        result = f(*args, **kwargs)
+        return result
+    return deco_func
+
+@validate_nums
+def sum_2(x,y):
+    return x + y
+
+print(sum_2(-2 ,3))
